@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <link rel="icon" href="../public/images/logo.svg" />
+    <title>Jfe Store</title>
+  </head>
+  <body class="font-poppins">
+    <!-- === header === -->
+    <header id="header" class="fixed">
+      <div class="container mx-auto">
+        <div class="navbar">
+          <div class="logo cursor-pointer">
+            <i class="bx bx-cube-alt icon text-3xl text-dark"></i>
+          </div>
+          <nav id="navigation" class="navigation" data-visible="false">
+            <ul class="menu">
+              <li>
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">Best Seller</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">All Under $30</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#">Reviews</a>
+              </li>
+              <button type="submit" class="btn-navigation">Sign Up</button>
+            </ul>
+          </nav>
+          <div
+            class="menu-hamburger cursor-pointer md:hidden"
+            aria-expanded="false"
+            aria-controls="navigation"
+          >
+            <i class="bx bx-menu-alt-right icon text-3xl text-dark"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- === content === -->
+    <section class="content">
+      <div class="container mx-auto">
+        <div class="rows-content">
+          <div
+            class="cols-content relative order-last mx-auto md:order-none md:m-0"
+          >
+            <div class="title-content">
+              <span class="text-classic">
+                <span class="relative">Classic</span>
+              </span>
+              <span class="px-2">Width</span>
+              <span class="text-natural">
+                <span class="relative">Natural</span>
+              </span>
+              <span class="px-2">Twist.</span>
+            </div>
+            <p class="text-content">Find your classic style now!</p>
+            <div class="app flex gap-x-2">
+              <img
+                class="app-store w-28 object-cover"
+                src="../public/images/app-store.png"
+                alt=""
+              />
+              <img
+                class="google-play w-28 object-cover"
+                src="../public/images/play-store.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="cols-content relative">
+            <div class="chev-left">
+              <img
+                class="w-8 md:w-9 lg:w-10"
+                src="../public/images/arrow_left.svg"
+                alt=""
+              />
+            </div>
+            <img
+              class="bg-hero max-w-xs"
+              src="../public/images/bg-hero.png"
+              alt=""
+            />
+            <div class="chev-right">
+              <img
+                class="w-8 md:w-9 lg:w-10"
+                src="../public/images/arrow_right.svg"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- === news arrivals ==== -->
+    <section class="new-arrivals py-12">
+      <div class="container mx-auto">
+        <h3 class="title-new-arrivals">2022 New Arrivals</h3>
+        <div class="rows-new-arrivals">
+          <div class="cols-new-arrivals">
+            <div class="card">
+              <div class="card-images relative w-52">
+                <div class="darkside"></div>
+                <img
+                  class="w-full"
+                  src="../public/images/product-1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <div class="card-info">
+                  <h3 class="heading-new-arrivals title-hover-arrow">
+                    Hoodie & Sweetshirt
+                  </h3>
+                  <p class="text-[.8rem] text-gray-400 md:text-xs">Buy Now!</p>
+                </div>
+                <div class="arrow-left">
+                  <span class="text-lg text-gray-400">&#8594;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cols-new-arrivals">
+            <div class="card">
+              <div class="card-images relative w-52">
+                <div class="darkside"></div>
+                <img
+                  class="w-full"
+                  src="../public/images/product-2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <div class="card-info">
+                  <h3 class="heading-new-arrivals title-hover-arrow">
+                    Coats & Parkas
+                  </h3>
+                  <p class="text-[.8rem] text-gray-400 md:text-xs">Buy Now!</p>
+                </div>
+                <div class="arrow-left">
+                  <span class="text-lg text-gray-400">&#8594;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cols-new-arrivals">
+            <div class="card">
+              <div class="card-images relative w-52">
+                <div class="darkside"></div>
+                <img
+                  class="w-full"
+                  src="../public/images/product-3.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <div class="card-info">
+                  <h3 class="heading-new-arrivals title-hover-arrow">
+                    Tees & T-Shirt
+                  </h3>
+                  <p class="text-[.8rem] text-gray-400 md:text-xs">Buy Now!</p>
+                </div>
+                <div class="arrow-left">
+                  <span class="text-lg text-gray-400">&#8594;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- === payday === -->
+    <section class="payday bg-warning py-16 md:py-0">
+      <div class="container mx-auto">
+        <div class="rows-payday">
+          <div class="cols-payday lg:basis-4/12">
+            <img
+              class="hidden w-full md:block lg:w-11/12"
+              src="../public/images/payday-preview-1.png"
+              alt=""
+            />
+          </div>
+          <div class="cols-payday lg:basis-2/5">
+            <div class="title-payday">
+              <span class="text-payday relative">
+                <span class="relative">payday</span>
+              </span>
+              <span class="px-2">Sale Now</span>
+            </div>
+            <p class="text-default-payday">
+              Spend minimal $100 get 30% of voucher code for your next purchase
+            </p>
+            <div class="terms my-4 text-center">
+              <span
+                class="text-[.95rem] font-semibold text-slate-900 md:text-[.9rem]"
+                >1 April - 10 April 2022</span
+              >
+              <p class="text-[.95rem] text-dark md:text-[.9rem]">
+                *Terms & Conditions apply
+              </p>
+            </div>
+            <button type="submit" class="btn-payday">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- === other store === -->
+    <section class="store py-16">
+      <div class="container mx-auto">
+        <div class="rows-store">
+          <div class="cols-store order-last lg:order-none lg:basis-5/12">
+            <h3 class="title-store">We Available on other Store</h3>
+            <p class="text-store">
+              Now you can find our product on the other store with the same
+              price.
+            </p>
+            <button type="submit" class="btn-store">View All</button>
+          </div>
+          <div class="cols-store lg:basis-5/12">
+            <div class="brand">
+              <div class="cols-brand">
+                <img class="" src="../public/images/brand-zara.png" alt="" />
+              </div>
+              <div class="cols-brand">
+                <img class="" src="../public/images/brand-alibaba.png" alt="" />
+              </div>
+              <div class="cols-brand">
+                <img src="../public/images/brand-shopify.png" alt="" />
+              </div>
+              <div class="cols-brand">
+                <img src="../public/images/brand-amazon.png" alt="" />
+              </div>
+              <div class="cols-brand">
+                <img src="../public/images/brand-tokped.png" alt="" />
+              </div>
+              <div class="cols-brand">
+                <img src="../public/images/brand-bukalapak.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- === favorite apparel === -->
+    <section class="apparel py-4">
+      <div class="container mx-auto">
+        <h3 class="title-apparel">Young's Favorite Apparel</h3>
+        <div class="rows-apparel">
+          <div class="cols-new-arrivals basis-11/12 md:basis-[48%]">
+            <div class="card">
+              <div class="card-images-apparel">
+                <div class="darkside"></div>
+                <img
+                  class="w-4/5 object-cover"
+                  src="../public/images/favorite-1.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <div class="card-info">
+                  <h3 class="heading-apparel">Trending on Instagram</h3>
+                  <p class="text-[.8rem] text-gray-400 md:text-xs">Buy Now!</p>
+                </div>
+                <div class="arrow-left">
+                  <span class="text-lg text-gray-400">&#8594;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cols-new-arrivals basis-11/12 md:basis-[48%]">
+            <div class="card">
+              <div class="card-images-apparel">
+                <div class="darkside"></div>
+                <img
+                  class="w-4/5 object-cover"
+                  src="../public/images/favorite-2.png"
+                  alt=""
+                />
+              </div>
+              <div class="card-body">
+                <div class="card-info">
+                  <h3 class="heading-apparel">All Under $40</h3>
+                  <p class="text-[.8rem] text-gray-400 md:text-xs">Buy Now!</p>
+                </div>
+                <div class="arrow-left">
+                  <span class="text-lg text-gray-400">&#8594;</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- === get the voucher! === -->
+    <section class="voucher py-14">
+      <div class="container mx-auto">
+        <div class="rows-voucher">
+          <div class="cols-voucher order-last lg:order-none lg:basis-1/3">
+            <h3 class="title-voucher">Download App & Get The Voucher</h3>
+            <p class="text-voucher">
+              Get 30% off for ther first transaction using Rondovision mobile
+              app for now.
+            </p>
+            <div class="app-voucher">
+              <img class="w-28" src="../public/images/app-store.png" alt="" />
+              <img class="w-28" src="../public/images/play-store.png" alt="" />
+            </div>
+          </div>
+          <div class="cols-voucher lg:basis-2/4">
+            <img
+              class="hero-images-voucher"
+              src="../public/images/download-app.svg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- === community === -->
+    <section class="community bg-warning py-16">
+      <div class="container mx-auto">
+        <div class="rows-community">
+          <div class="cols-community order-last">
+            <h3 class="title-community">
+              Join JfeStudio Community to Get Monthly Promo
+            </h3>
+            <p class="text-community">
+              Type your email down bellow and be young wild generation
+            </p>
+            <form class="form-input">
+              <input
+                class="input-text"
+                type="text"
+                name="text"
+                placeholder="Add your email here"
+              />
+              <button type="submit" class="btn-community">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="relative bg-black pt-14 pb-24">
+      <div class="container mx-auto">
+        <div class="rows-footer">
+          <div class="cols-footer flex">
+            <h3 class="title-logo-footer">JfeStudio</h3>
+            <span class="text-[.8rem] text-gray-500">128 Market St.</span>
+            <span class="text-[.8rem] text-gray-500">20193 San Fransisco</span>
+            <span class="text-[.8rem] text-gray-500"
+              >California Suite #201</span
+            >
+          </div>
+          <div class="cols-footer">
+            <h5 class="mb-2 text-[.9rem] text-white">Company</h5>
+            <ul>
+              <li><a class="text-[.8rem] text-gray-500" href="#">About</a></li>
+              <li>
+                <a class="text-[.8rem] text-gray-500" href="#">Contact Us</a>
+              </li>
+              <li>
+                <a class="text-[.8rem] text-gray-500" href="#">Support</a>
+              </li>
+              <li>
+                <a class="text-[.8rem] text-gray-500" href="#">Careers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="cols-footer">
+            <h5 class="mb-2 text-[.9rem] text-white">Quick Link</h5>
+            <ul>
+              <li>
+                <a class="text-[.8rem] text-gray-500" href="#"
+                  >Share Location</a
+                >
+              </li>
+              <li>
+                <a class="text-[.8rem] text-gray-500" href="#"
+                  >Orders Tracking</a
+                >
+              </li>
+              <li>
+                <a class="text-[.8rem] text-gray-500" href="#">Size Guide</a>
+              </li>
+              <li><a class="text-[.8rem] text-gray-500" href="#">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="cols-footer">
+            <h5 class="mb-2 text-[.9rem] text-white">Legal</h5>
+            <ul>
+              <li>
+                <a class="text-[.8rem] text-gray-500" href="#"
+                  >Terms & conditions</a
+                >
+              </li>
+              <li>
+                <a class="text-[.8rem] text-gray-500" href="#"
+                  >Privacy Policy</a
+                >
+              </li>
+            </ul>
+            <div class="social-media mt-5 flex gap-x-2">
+              <span
+                class="flex h-7 w-7 cursor-pointer rounded-lg bg-orange-500 md:h-6 md:w-6"
+                ><i class="bx bxl-facebook icon m-auto"></i
+              ></span>
+              <span
+                class="flex h-7 w-7 cursor-pointer rounded-lg bg-orange-500 md:h-6 md:w-6"
+                ><i class="bx bxl-instagram icon m-auto"></i
+              ></span>
+              <span
+                class="flex h-7 w-7 cursor-pointer rounded-lg bg-orange-500 md:h-6 md:w-6"
+                ><i class="bx bxl-twitter icon m-auto"></i
+              ></span>
+              <span
+                class="flex h-7 w-7 cursor-pointer rounded-lg bg-orange-500 md:h-6 md:w-6"
+                ><i class="bx bxl-linkedin icon m-auto"></i
+              ></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">
+        <a class="text-copyrights" href="https://github.com/JfeStudio"
+          >© 2022 CREATED BY MAMAN ALL RIGHTS RESERVED.</a
+        >
+      </div>
+    </footer>
+    <script src="../public/js/main.js"></script>
+  </body>
+</html>
